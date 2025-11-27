@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HAYQ MVP 🚀
 
 HAYQ is a decentralized ecosystem combining:
@@ -14,3 +15,6 @@ HAYQ is a decentralized ecosystem combining:
 ```bash
 git clone https://github.com/yourrepo/hayq-mvp.git
 cd hayq-mvp
+=======
+# HAYQMiniMVP_V2
+>>>>>>> 80747d1bc388940a4c5297c6e589d080661dd083

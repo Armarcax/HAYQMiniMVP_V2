@@ -1,0 +1,8 @@
+//@version=5
+// EMA crossover signal
+fastLength = input.int(12, "Fast EMA Length")
+slowLength = input.int(26, "Slow EMA Length")
+fastEMA = ta.ema(close, fastLength)
+slowEMA = ta.ema(close, slowLength)
+emaLong  = ta.crossover(fastEMA, slowEMA)
+emaShort = ta.crossunder(fastEMA, slowEMA)

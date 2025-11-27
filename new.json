@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "1️⃣ խնդրում եմ ինտեգրել HAYQ token-ի պայմանագիրը Sepolia ցանցի հասցեով՝ https://sepolia.etherscan.io/address/0x928677743439e4dA4108c4025694B2F3d3b2745c։ Այժմ balance-ը չի բերում և գրում է որ contract-ը տեղադրված չէ։ Խնդրում եմ wallet connector-ում ավելացնել contract ABI + provider URL (https://sepolia.infura.io/v3/) և balance call-ը ուղղել ERC20-ի 'balanceOf' մեթոդով։"
+    },
+    {
+      "role": "user",
+      "content": "2️⃣ խնդրում եմ ավելացնել սիմվոլիկ test transfer բաժին՝ որտեղից կկարողանամ ուղարկել HAYQ token այլ հասցեի՝ ERC20 transfer մեթոդով։ Եթե հնարավոր է՝ ավելացնել toast notification՝ “✅ Transfer Successful” հաղորդագրությամբ։"
+    },
+    {
+      "role": "user",
+      "content": "3️⃣ խնդրում եմ միացնել bot համակարգը Metamask-ի նույն provider-ին, որպեսզի այն կարողանա իրական ժամանակում կարդալ balance փոփոխությունները և պատասխանել հարցերին։ Օրինակ՝ եթե balance-ը փոխվում է՝ բոտը արձագանքի 'Your balance has been updated: X HAYQ'."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+//@version=5
+// RSI signal levels
+rsiLength  = input.int(14, "RSI Length")
+rsiOverbought = input.int(70, "RSI Overbought")
+rsiOversold   = input.int(30, "RSI Oversold")
+rsiVal = ta.rsi(close, rsiLength)
+rsiLong  = rsiVal < rsiOverbought
+rsiShort = rsiVal > rsiOversold

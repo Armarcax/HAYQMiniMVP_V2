@@ -1,0 +1,45 @@
+{
+  "HAYQ": {
+    "name": "HAYQ",
+    "address": "0x7E5c8baC4447D8FA7010AEc8D400Face1b1BEC83",
+    "isProxy": false,
+    "implementation": null,
+    "admin": null,
+    "owner": "0x928677743439e4dA4108c4025694B2F3d3b2745c",
+    "signerIsOwner": true,
+    "abiAvailable": true,
+    "tokenName": "HAYQ Token",
+    "tokenSymbol": "HAYQ",
+    "totalSupply": "1000000000000000999890000000000000000000"
+  },
+  "VESTING": {
+    "name": "VESTING",
+    "address": "0x45615F3D52262ba7F16d7E0182893492F1752baB",
+    "isProxy": false,
+    "implementation": null,
+    "admin": null,
+    "owner": "0x928677743439e4dA4108c4025694B2F3d3b2745c",
+    "signerIsOwner": true,
+    "abiAvailable": true
+  },
+  "ETH_DIV": {
+    "name": "ETH_DIV",
+    "address": "0x6e28b827C29e574389ad6021Da8af91B0eDE134E",
+    "isProxy": false,
+    "implementation": null,
+    "admin": null,
+    "owner": "0x928677743439e4dA4108c4025694B2F3d3b2745c",
+    "signerIsOwner": true,
+    "abiAvailable": true
+  },
+  "MULTISIG": {
+    "name": "MULTISIG",
+    "address": "0xa1Bbf04d7ED7a64eE4E4324259AB31E01bEAf0BA",
+    "isProxy": false,
+    "implementation": null,
+    "admin": null,
+    "owner": null,
+    "signerIsOwner": null,
+    "abiAvailable": true
+  }
+}

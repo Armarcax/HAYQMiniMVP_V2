@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-# HAYQ MVP 🚀
+# HAYQMiniMVP_V2 🚀
 
-HAYQ is a decentralized ecosystem combining:
-- Reflection + Buyback Tokenomics
+HAYQ-ը՝ decentralized էկոհամակարգ, որը պարունակում է՝
+- Reflection + Buyback tokenomics
 - Staking & Dividends
 - MultiSig Timelock & Vesting
 - AI-powered prediction models
@@ -12,9 +11,26 @@ HAYQ is a decentralized ecosystem combining:
 ---
 
 ## 🔧 Installation
+
 ```bash
-git clone https://github.com/yourrepo/hayq-mvp.git
-cd hayq-mvp
-=======
-# HAYQMiniMVP_V2
->>>>>>> 80747d1bc388940a4c5297c6e589d080661dd083
+git clone https://github.com/Armarcax/HAYQMiniMVP_V2.git
+cd HAYQMiniMVP_V2
+npm install
+# հետո՝ համահունչ քայլերը (hardhat, react-dapp, ու այլն)
+```
+
+## 📂 Տեսական կառուցվածք (բաղադրության օրինակ)
+- hardhat/ — Solidity/contracts, Hardhat կոնֆիգ
+- react-dapp/ — React frontend
+- bot/ — Telegram trading bot
+- ai/ — մոդելների և օրինակների ֆայլեր
+- pine-script/ — TradingView սցենարներ
+- public-assets/ — պատկերներ և ստատիկ ռեսուրսներ
+
+## 🛠 Առաջարկվող մաքուր քայլեր և օպտիմիզացիա
+1. README-ից հեռացնել Git կոնֆլիկտի նշանները՝ ֆայլը ընթեռնելի դարձնելու համար  
+2. Ավելացնել կամ թարմացնել `.gitignore` (առավել քիչ՝ node_modules, build ֆոլդերներ, վենդոր ֆայլեր)  
+3. Լավ կլինի լինել certain, որ package.json ու package-lock.json համընկնում են
+
+## Changelog
+- README-ի կոնֆլիկտը լուծված է և ֆայլը դարձվել է ընթեռնելի։
